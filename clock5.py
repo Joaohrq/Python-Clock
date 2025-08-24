@@ -1,5 +1,7 @@
 import time
 
+
+
 def minuto_ou_hora():
     try:
         tipo_tempo = int(input("Escolha: 1- Segundos. 2- Minutos: "))
