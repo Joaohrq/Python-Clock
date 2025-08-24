@@ -24,7 +24,8 @@ def tempo_passado(a):
             print(b)
             time.sleep(1)
             b -= 1
-        print(f"tempo acabou. passaram-se f{segundos} segundos.")
+        print(f"tempo acabou. passaram-se {segundos} segundos.")
+        quit()
     
     elif a == 2:
         minutos = float(input("Quantos minutos? "))
@@ -36,6 +37,7 @@ def tempo_passado(a):
         print(f"tempo acabou. Passaram-se {minutos} minutos.")
     else:
         print("Opção inválida.")
+        quit()
 
 abacaxi = minuto_ou_hora()
 tempo_passado(abacaxi)
